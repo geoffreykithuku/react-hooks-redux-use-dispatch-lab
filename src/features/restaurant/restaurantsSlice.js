@@ -10,6 +10,8 @@ export function addRestaurant(restaurant) {
 const initialState = {
   restaurants: [],
 };
+// acton creator
+
 
 export default function restaurantsReducer(state = initialState, action) {
   switch (action.type) {
